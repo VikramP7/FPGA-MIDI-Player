@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2025.1 (64-bit)
+# SW Build 6140274 on Thu May 22 00:12:29 MDT 2025
+# IP Build 6138677 on Thu May 22 03:10:11 MDT 2025
+# SharedData Build 6139179 on Tue May 20 17:58:58 MDT 2025
+# Start of session at: Sun Nov  2 18:11:45 2025
+# Process ID         : 17680
+# Current directory  : C:/Users/vikra/Documents/School/ThirdYearEng/FALL/ENEL453/ENEL-453/lab7/lab7/lab7.runs/xadc_wiz_0_synth_1
+# Command line       : vivado.exe -log xadc_wiz_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source xadc_wiz_0.tcl
+# Log file           : C:/Users/vikra/Documents/School/ThirdYearEng/FALL/ENEL453/ENEL-453/lab7/lab7/lab7.runs/xadc_wiz_0_synth_1/xadc_wiz_0.vds
+# Journal file       : C:/Users/vikra/Documents/School/ThirdYearEng/FALL/ENEL453/ENEL-453/lab7/lab7/lab7.runs/xadc_wiz_0_synth_1\vivado.jou
+# Running On         : VikramAsus
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26100
+# Processor Detail   : 13th Gen Intel(R) Core(TM) i5-1335U
+# CPU Frequency      : 2496 MHz
+# CPU Physical cores : 10
+# CPU Logical cores  : 12
+# Host memory        : 16786 MB
+# Swap memory        : 13958 MB
+# Total Virtual      : 30745 MB
+# Available Virtual  : 5153 MB
+#-----------------------------------------------------------
+source xadc_wiz_0.tcl -notrace

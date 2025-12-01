@@ -1,0 +1,7 @@
+Running: xsim.dir/scalar_tb_behav/xsimk.exe -simmode gui -wdb scalar_tb_behav.wdb -simrunnum 0 -socket 49682
+Design successfully loaded
+Design Loading Memory Usage: 11040 KB (Peak: 11040 KB)
+Design Loading CPU Usage: 15 ms
+Simulation completed
+Simulation Memory Usage: 12196 KB (Peak: 12196 KB)
+Simulation CPU Usage: 77 ms

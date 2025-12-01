@@ -1,0 +1,11 @@
+===================================
+Configuration Memory information
+===================================
+File Format        MCS
+Interface          SPIX4
+Size               4M
+Start Address      0x00000000
+End Address        0x003FFFFF
+
+Addr1         Addr2         Date                    File(s)
+0x00000000    0x0009A5EB    Nov 27 16:40:17 2025    C:/Users/vikra/Documents/School/ThirdYearEng/FALL/ENEL453/ENEL-453/lab7/lab7/lab7.runs/impl_1/lab_7_new_top_level.bit

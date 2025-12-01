@@ -1,0 +1,345 @@
+#-----------------------------------------------------------
+# Vivado v2025.1 (64-bit)
+# SW Build 6140274 on Thu May 22 00:12:29 MDT 2025
+# IP Build 6138677 on Thu May 22 03:10:11 MDT 2025
+# SharedData Build 6139179 on Tue May 20 17:58:58 MDT 2025
+# Start of session at: Thu Nov 20 18:32:34 2025
+# Process ID         : 19152
+# Current directory  : C:/Users/vikra/Documents/School/ThirdYearEng/FALL/ENEL453/ENEL-453/lab7/lab7
+# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent28600 C:\Users\vikra\Documents\School\ThirdYearEng\FALL\ENEL453\ENEL-453\lab7\lab7\lab7.xpr
+# Log file           : C:/Users/vikra/Documents/School/ThirdYearEng/FALL/ENEL453/ENEL-453/lab7/lab7/vivado.log
+# Journal file       : C:/Users/vikra/Documents/School/ThirdYearEng/FALL/ENEL453/ENEL-453/lab7/lab7\vivado.jou
+# Running On         : VikramAsus
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26100
+# Processor Detail   : 13th Gen Intel(R) Core(TM) i5-1335U
+# CPU Frequency      : 2496 MHz
+# CPU Physical cores : 10
+# CPU Logical cores  : 12
+# Host memory        : 16786 MB
+# Swap memory        : 16228 MB
+# Total Virtual      : 33015 MB
+# Available Virtual  : 5399 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/vikra/Documents/School/ThirdYearEng/FALL/ENEL453/ENEL-453/lab7/lab7/lab7.xpr
+update_compile_order -fileset sources_1
+synth_design -top lab_7_new_top_level -part xc7a35tcpg236-1 -lint 
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+refresh_design
+add_files -norecurse C:/Users/vikra/Documents/School/ThirdYearEng/FALL/ENEL453/ENEL-453/lab7/lab7/synchronizer.sv
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+synth_design -top lab_7_new_top_level -part xc7a35tcpg236-1 -lint 
+export_ip_user_files -of_objects  [get_files C:/Users/vikra/Documents/School/ThirdYearEng/FALL/ENEL453/ENEL-453/lab7/lab7/flurb.sv] -no_script -reset -force -quiet
+remove_files  C:/Users/vikra/Documents/School/ThirdYearEng/FALL/ENEL453/ENEL-453/lab7/lab7/flurb.sv
+refresh_design
+synth_design -top lab_7_new_top_level -part xc7a35tcpg236-1 -lint 
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+wait_on_run impl_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/vikra/Documents/School/ThirdYearEng/FALL/ENEL453/ENEL-453/lab7/lab7/lab7.runs/impl_1/lab_7_new_top_level.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/vikra/Documents/School/ThirdYearEng/FALL/ENEL453/ENEL-453/lab7/lab7/lab7.runs/impl_1/lab_7_new_top_level.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/vikra/Documents/School/ThirdYearEng/FALL/ENEL453/ENEL-453/lab7/lab7/lab7.runs/impl_1/lab_7_new_top_level.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/vikra/Documents/School/ThirdYearEng/FALL/ENEL453/ENEL-453/lab7/lab7/lab7.runs/impl_1/lab_7_new_top_level.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/vikra/Documents/School/ThirdYearEng/FALL/ENEL453/ENEL-453/lab7/lab7/lab7.runs/impl_1/lab_7_new_top_level.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+synth_design -top lab_7_new_top_level -part xc7a35tcpg236-1 -lint 
+synth_design -top lab_7_new_top_level -part xc7a35tcpg236-1 -lint 
+synth_design -top lab_7_new_top_level -part xc7a35tcpg236-1 -lint 
+close_design
+close_hw_manager
+synth_design -top lab_7_new_top_level -part xc7a35tcpg236-1 -lint 
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+wait_on_run impl_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/vikra/Documents/School/ThirdYearEng/FALL/ENEL453/ENEL-453/lab7/lab7/lab7.runs/impl_1/lab_7_new_top_level.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/vikra/Documents/School/ThirdYearEng/FALL/ENEL453/ENEL-453/lab7/lab7/lab7.runs/impl_1/lab_7_new_top_level.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+synth_design -top lab_7_new_top_level -part xc7a35tcpg236-1 -lint 
+synth_design -top lab_7_new_top_level -part xc7a35tcpg236-1 -lint 
+close_design
+close_hw_manager
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/vikra/Documents/School/ThirdYearEng/FALL/ENEL453/ENEL-453/lab7/lab7/lab7.runs/impl_1/lab_7_new_top_level.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/vikra/Documents/School/ThirdYearEng/FALL/ENEL453/ENEL-453/lab7/lab7/lab7.runs/impl_1/lab_7_new_top_level.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+reset_run synth_1
+launch_runs synth_1 -jobs 12
+wait_on_run synth_1
+synth_design -top lab_7_new_top_level -part xc7a35tcpg236-1 -lint 
+close_design
+close_hw_manager
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+wait_on_run impl_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/vikra/Documents/School/ThirdYearEng/FALL/ENEL453/ENEL-453/lab7/lab7/lab7.runs/impl_1/lab_7_new_top_level.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/vikra/Documents/School/ThirdYearEng/FALL/ENEL453/ENEL-453/lab7/lab7/lab7.runs/impl_1/lab_7_new_top_level.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+close_hw_manager
+synth_design -top lab_7_new_top_level -part xc7a35tcpg236-1 -lint 
+close_design
+close_project
+open_project C:/Users/vikra/Documents/School/ThirdYearEng/FALL/ENEL453/ENEL-453/lab7/lab7/lab7.xpr
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+wait_on_run impl_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/vikra/Documents/School/ThirdYearEng/FALL/ENEL453/ENEL-453/lab7/lab7/lab7.runs/impl_1/lab_7_new_top_level.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/vikra/Documents/School/ThirdYearEng/FALL/ENEL453/ENEL-453/lab7/lab7/lab7.runs/impl_1/lab_7_new_top_level.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+close_hw_manager
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+wait_on_run impl_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/vikra/Documents/School/ThirdYearEng/FALL/ENEL453/ENEL-453/lab7/lab7/lab7.runs/impl_1/lab_7_new_top_level.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/vikra/Documents/School/ThirdYearEng/FALL/ENEL453/ENEL-453/lab7/lab7/lab7.runs/impl_1/lab_7_new_top_level.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/vikra/Documents/School/ThirdYearEng/FALL/ENEL453/ENEL-453/lab7/lab7/lab7.runs/impl_1/lab_7_new_top_level.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/vikra/Documents/School/ThirdYearEng/FALL/ENEL453/ENEL-453/lab7/lab7/lab7.runs/impl_1/lab_7_new_top_level.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/vikra/Documents/School/ThirdYearEng/FALL/ENEL453/ENEL-453/lab7/lab7/lab7.runs/impl_1/lab_7_new_top_level.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/vikra/Documents/School/ThirdYearEng/FALL/ENEL453/ENEL-453/lab7/lab7/lab7.runs/impl_1/lab_7_new_top_level.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+close_hw_manager
+synth_design -top lab_7_new_top_level -part xc7a35tcpg236-1 -lint 
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+wait_on_run impl_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/vikra/Documents/School/ThirdYearEng/FALL/ENEL453/ENEL-453/lab7/lab7/lab7.runs/impl_1/lab_7_new_top_level.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/vikra/Documents/School/ThirdYearEng/FALL/ENEL453/ENEL-453/lab7/lab7/lab7.runs/impl_1/lab_7_new_top_level.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+wait_on_run impl_1
+synth_design -top lab_7_new_top_level -part xc7a35tcpg236-1 -lint 
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+wait_on_run impl_1
+open_run impl_1
+close_design
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/vikra/Documents/School/ThirdYearEng/FALL/ENEL453/ENEL-453/lab7/lab7/lab7.runs/impl_1/lab_7_new_top_level.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/vikra/Documents/School/ThirdYearEng/FALL/ENEL453/ENEL-453/lab7/lab7/lab7.runs/impl_1/lab_7_new_top_level.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/vikra/Documents/School/ThirdYearEng/FALL/ENEL453/ENEL-453/lab7/lab7/lab7.runs/impl_1/lab_7_new_top_level.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+wait_on_run impl_1
+update_compile_order -fileset sources_1
+close_hw_manager
+synth_design -top lab_7_new_top_level -part xc7a35tcpg236-1 -lint 
+add_files -norecurse C:/Users/vikra/Documents/School/ThirdYearEng/FALL/ENEL453/ENEL-453/lab7/lab7/basys_display.sv
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+synth_design -top lab_7_new_top_level -part xc7a35tcpg236-1 -lint 
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+wait_on_run impl_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/vikra/Documents/School/ThirdYearEng/FALL/ENEL453/ENEL-453/lab7/lab7/lab7.runs/impl_1/lab_7_new_top_level.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/vikra/Documents/School/ThirdYearEng/FALL/ENEL453/ENEL-453/lab7/lab7/lab7.runs/impl_1/lab_7_new_top_level.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+synth_design -top lab_7_new_top_level -part xc7a35tcpg236-1 -lint 
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+wait_on_run impl_1
+synth_design -top lab_7_new_top_level -part xc7a35tcpg236-1 -lint 
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/vikra/Documents/School/ThirdYearEng/FALL/ENEL453/ENEL-453/lab7/lab7/lab7.runs/impl_1/lab_7_new_top_level.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+synth_design -top lab_7_new_top_level -part xc7a35tcpg236-1 -lint 
+close_hw_manager
+synth_design -top lab_7_new_top_level -part xc7a35tcpg236-1 -lint 
+synth_design -top lab_7_new_top_level -part xc7a35tcpg236-1 -lint 
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+close_design
+close_project
+open_project C:/Users/vikra/Documents/School/ThirdYearEng/FALL/ENEL453/ENEL-453/lab7/lab7/lab7.xpr
+synth_design -top lab_7_new_top_level -part xc7a35tcpg236-1 -lint 
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+wait_on_run impl_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/vikra/Documents/School/ThirdYearEng/FALL/ENEL453/ENEL-453/lab7/lab7/lab7.runs/impl_1/lab_7_new_top_level.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/vikra/Documents/School/ThirdYearEng/FALL/ENEL453/ENEL-453/lab7/lab7/lab7.runs/impl_1/lab_7_new_top_level.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+close_hw_manager
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+wait_on_run impl_1
+add_files -norecurse C:/Users/vikra/Documents/School/ThirdYearEng/FALL/ENEL453/ENEL-453/lab7/lab7/scaling_calibrator.sv
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+wait_on_run impl_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/vikra/Documents/School/ThirdYearEng/FALL/ENEL453/ENEL-453/lab7/lab7/lab7.runs/impl_1/lab_7_new_top_level.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/vikra/Documents/School/ThirdYearEng/FALL/ENEL453/ENEL-453/lab7/lab7/lab7.runs/impl_1/lab_7_new_top_level.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/vikra/Documents/School/ThirdYearEng/FALL/ENEL453/ENEL-453/lab7/lab7/lab7.runs/impl_1/lab_7_new_top_level.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+wait_on_run impl_1
+synth_design -top lab_7_new_top_level -part xc7a35tcpg236-1 -lint 
+close_hw_manager
+close_project
+open_project C:/Users/vikra/Documents/School/ThirdYearEng/FALL/ENEL453/music/music2/music2.xpr
+update_compile_order -fileset sources_1
+close_project
+open_project C:/Users/vikra/Documents/School/ThirdYearEng/FALL/ENEL453/ENEL-453/lab7/lab7/lab7.xpr
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+wait_on_run impl_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/vikra/Documents/School/ThirdYearEng/FALL/ENEL453/ENEL-453/lab7/lab7/lab7.runs/impl_1/lab_7_new_top_level.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/vikra/Documents/School/ThirdYearEng/FALL/ENEL453/ENEL-453/lab7/lab7/lab7.runs/impl_1/lab_7_new_top_level.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]

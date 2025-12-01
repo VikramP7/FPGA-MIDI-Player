@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/vikra/Documents/School/ThirdYearEng/FALL/ENEL453/ENEL-453/lab7/lab7/mydowncounter.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mydowncounter
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/vikra/Documents/School/ThirdYearEng/FALL/ENEL453/ENEL-453/lab7/lab7/r2r_adc_sar.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module r2r_adc_sar
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/vikra/Documents/School/ThirdYearEng/FALL/ENEL453/ENEL-453/lab7/lab7/r2r_adc_sar_tb.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module r2r_adc_sar_tb

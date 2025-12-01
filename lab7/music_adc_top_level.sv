@@ -1,4 +1,4 @@
-module lab_7_new_top_level (
+module music_adc_top_level (
     input  logic        clk,
     input  logic        reset, // center button
     

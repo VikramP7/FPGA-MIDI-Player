@@ -1,0 +1,58 @@
+# ===========================
+# Vivado Project Files
+# ===========================
+
+# Build & generated directories
+.runs
+.cache
+.hw
+.ip_user_files
+.sim
+.srcssources_1ip  
+.srcssources_1bd
+.Xil
+
+# Vivado temporary files
+.jou
+.log
+.str
+.pb
+.xml
+.wdb
+.html
+.mpd
+.xpr.lock
+.webtalk
+
+# ===========================
+# Simulation (VerilogSV)
+# ===========================
+
+# QuestaModelsim
+work
+vsim.wlf
+transcript
+.vstf
+.mti
+
+# Icarus Verilog
+.vvp
+
+# Verilator
+obj_dir
+.log
+.dmp
+
+# XSIM
+xsim.dir
+.xsim
+.dbg
+
+# ===========================
+# Generated Bitstreams
+# ===========================
+
+.bit
+.bin
+.mcs
+.prm

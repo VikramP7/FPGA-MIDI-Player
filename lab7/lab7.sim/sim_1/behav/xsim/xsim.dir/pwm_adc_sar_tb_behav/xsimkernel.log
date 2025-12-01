@@ -1,7 +1,0 @@
-Running: xsim.dir/pwm_adc_sar_tb_behav/xsimk.exe -simmode gui -wdb pwm_adc_sar_tb_behav.wdb -simrunnum 0 -socket 55752
-Design successfully loaded
-Design Loading Memory Usage: 10776 KB (Peak: 10776 KB)
-Design Loading CPU Usage: 15 ms
-Simulation completed
-Simulation Memory Usage: 15604 KB (Peak: 15604 KB)
-Simulation CPU Usage: 109 ms

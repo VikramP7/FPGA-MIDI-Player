@@ -1,7 +1,0 @@
-Running: xsim.dir/r2r_adc_sar_tb_behav/xsimk.exe -simmode gui -wdb r2r_adc_sar_tb_behav.wdb -simrunnum 0 -socket 52351
-Design successfully loaded
-Design Loading Memory Usage: 10816 KB (Peak: 10816 KB)
-Design Loading CPU Usage: 15 ms
-Simulation completed
-Simulation Memory Usage: 11892 KB (Peak: 11892 KB)
-Simulation CPU Usage: 93 ms
